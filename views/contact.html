@@ -1,0 +1,114 @@
+<html>
+  <meta
+    name="google-site-verification"
+    content="KZWafVMzglu5yoknYsu-phTPoXkUtA0Hn1MGQM6codw"
+  />
+  <div class="boxliner"></div>
+
+  <!DOCTYPE html>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <body>
+    <div class="dropdown">
+      <button style="float:right" onclick="myFunction()" class="dropbtn">
+        Menu
+      </button>
+
+      <div id="myDropdown" class="dropdown-content">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+      </div>
+    </div>
+
+    <script>
+      /* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function(event) {
+        if (!event.target.matches(".dropbtn")) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains("show")) {
+              openDropdown.classList.remove("show");
+            }
+          }
+        }
+      };
+    </script>
+  </body>
+
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  <div class="textmain">
+    <h3>Benitorex Developers Contact Info</h3>
+    <br />
+    <p class="blink_me"></p>
+    <br />
+    <p>
+      Looking for the developers contact info? <br />Well you're on the right
+      page
+      <br />
+      <br />Developers will respond ASAP
+      <br />
+      <br />
+    </p>
+  </div>
+
+  <div class="Info">
+    <h2>
+      Emails:
+    </h2>
+    <tr>
+      <th>#</th>
+      <th>Developers mail</th>
+    </tr>
+    <tr>
+      <table>
+        <td>1:</td>
+
+        <td>
+          <span title="Pajsen"></span>
+          <span title="Founder and Website developer">Pajsen:</span>
+        </td>
+        <td>pajsen@icloud.com</td>
+      </table>
+    </tr>
+    <tr>
+      <table>
+        <td>2:</td>
+        <td>
+          <span title="Zorgbravle"></span>
+          <span title="Website Developer">Zorgbravle:</span>
+        </td>
+        <td>bobzilagator@gmail.com</td>
+      </table>
+    </tr>
+
+    <tr>
+      <table>
+        <td>3:</td>
+        <td>
+          <span title="Cloudy"></span>
+          <span title="Website Developer">Cloudy:</span>
+        </td>
+        <td>softnights00@gmail.com</td>
+      </table>
+    </tr>
+    <table>
+      <tr>
+        <td>4:</td>
+        <td>
+          <span title="Mackan"></span>
+          <span title="Website Developer">Mackan:</span>
+        </td>
+        <td>markus.vind600@gmail.com</td>
+      </tr>
+    </table>
+  </div>
+</html>
