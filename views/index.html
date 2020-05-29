@@ -1,0 +1,275 @@
+
+<link rel="logo" type="image/jpg" href="https://cdn.glitch.com/806c4b29-17a4-4de5-a660-fd1052b17ca6%2Fskull-glyphe.jpg?v=1590739571404"/>
+<html>
+    <script src="./kon.js" defer></script>
+
+  <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-XXXXX-Y', 'auto');
+ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+   
+
+
+  
+<meta name="google-site-verification" content="KZWafVMzglu5yoknYsu-phTPoXkUtA0Hn1MGQM6codw" />
+<div class="boxliner">
+  </div>
+
+  
+ 
+
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<body>
+
+
+<div class="dropdown">
+  <button style="float:right" onclick="myFunction()" class="dropbtn">Menu</button>
+
+  <div id="myDropdown" class="dropdown-content">
+  
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/contact">Contact</a>
+  </div>
+</div>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+  </body>
+
+
+  
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  <div class="textmain">
+    <h3>Benitorex challenge by 101</h3>
+  <br> 
+  <p class="blink_me">Mission 5 out of ??? started!</p>
+  <br> 
+  <p> Congratulations! 
+  You found the hidden codes. 
+  Was it easy? 
+  <br>Well if you thougt that was hard, then wait for the next mission. 
+  <br>
+  <br>This website will be updated with some new missions.
+  <br>
+  <br>Best of luck 101
+    <br> </p>
+      </div>
+
+
+<div class="Scoreboard">
+  <h2>
+    Scoreboard
+  </h2>
+  <p><table>
+  <tr>
+    <th>#</th>
+    <th>Team/Contestant Name</th> 
+    <th>Points</th>
+  </tr><tr>
+    <td>1</td>
+
+       <td> <span title="Bendzsi999, Davoid, Omasunner, Kaguya, and Zescio">Team</span> <span title="Buy Wuppo and You Will Be Very Happy">BWaYWBVH</span></td>
+  <td>2000</td>
+
+  </tr>
+  <tr>
+    <td>2</td>
+    <td><span title="Aroktyoe, Neinty, Omaru, PotatoKingTheVII, Hybrid Coffee, and Quirpy">Team Pepegas</span></td> 
+    <td>1800</td>
+  </tr>
+
+  <tr>
+    <td>3</td>
+    <td><span title="Trashbuny Jr. and Valleanne">Lucy & Alex</span></td>
+    <td>1400</td>
+  </tr>
+  
+<tr>
+    <tr>
+    <td>4</td>
+    <td><span title="Catboy and Catgirl Aiba">The Beatles 2</span></td>
+    <td>1200</td>
+  </tr>  <tr>
+    <td>5</td>
+    <td>Eden</td>
+    <td>1100</td>
+    </tr> 
+  <tr>
+    <td>8</td>
+    <td><span title="Sundae, Ubre, and Sikerow">Underbox</span></td>
+    <td>800</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td><span title="KiNgDiYm and Undead_army69">Team Canium</span></td>
+    <td>500</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td><span title="ValentineShoggoth">ValentineShoggoth</span></td>
+    <td>400</td>
+  </tr>
+
+  <tr>
+    <td>9</td>
+    <td></td>
+
+  </tr>
+  <tr>
+    <td>10</td>
+    <td> </td>
+    <td></td>
+
+  </tr>
+    </tr>
+</table></p></div><p>
+  <div class="scoreboardinfo">
+  
+  <p><br> If you finish a mission the fastest you will get 1000 points.</p><br>
+  <p>Every place after that will get 100 points less than the place above them. <br> (i.e. 2nd would get 900, 5th would get 600, etc.) </p> <br> <p>
+    Unofficial Fish Game Points: Pepegas-300 BWaYWBVH-175
+    </p>
+<br>
+  
+    </div>
+  <br>
+  <br>
+  <div class="textmain">    
+  <p class="blink_me">Time until new clue: </p>
+<p id="days" class="days"></p>
+    <p id="hours" class="hours"></p>
+    <p id="mins" class="mins"></p>
+    <p id="secs" class="secs"></p>
+    <h2 id="end" class="end"></h2>
+  <script src="mission.js" defer></script>
+   <!-- <script>
+     var t=setInterval(log,0.01);
+ Hmm, what is this? Surely this isn't super important? ;)
+function log () {
+      console.log("error 124223773723499 or error hhsasd789304566hhasdh")
+      console.log("error ssadaffe332122 or error hasd888203hhasdn777233888sadnhnjjnasf923565733hajsdy-aHR0cHM6Ly9kaXNjb3JkLmdnLzM3YlV1ZUU=")
+    } 
+    
+    </script> --->
+
+    
+  </div>
+
+<div class="code"><p>
+ MDEwMDEwMDAgMDExMDAxMDEgMDExMDExMDAgMDExMDExMDAgMDExMDExMTEgMDAxMDAwMDAgMDEwMTAxMDEgMDExMTAwMTEgMDExMDAxMDEgMDExMTAwMTAgMDAxMDAwMDEgMDAxMDAwMDAgMDEwMTAxMTEgMDExMDAxMDEgMDExMDExMDAgMDExMDAwMTEgMDExMDExMTEgMDExMDExMDEgMDExMDAxMDEgMDAxMDAwMDAgMDExMDEwMDAgMDExMDAxMDEgMDExMTAwMTAgMDExMDAxMDEgMDAxMDExMTAgMDAxMDAwMDAgMDEwMTEwMDEgMDExMDExMTEgMDExMTAxMDEgMDAxMDAwMDAgMDExMDAxMTAgMDExMDExMTEgMDExMTAxMDEgMDExMDExMTAgMDExMDAxMDAgMDAxMDAwMDAgMDExMDExMDEgMDExMDEwMDEgMDExMTAwMTEgMDExMTAwMTEgMDExMDEwMDEgMDExMDExMTEgMDExMDExMTAgMDAxMDAwMDAgMDAxMTAwMTEgMDAxMDExMTAgMDAxMDAwMDAgMDEwMTEwMDEgMDExMDExMTEgMDExMTAxMDEgMDExMTAwMTAgMDAxMDAwMDAgMDExMDExMTAgMDExMDAxMDEgMDExMTEwMDAgMDExMTAxMDAgMDAxMDAwMDAgMDExMDExMDEgMDExMDEwMDEgMDExMTAwMTEgMDExMTAwMTEgMDExMDEwMDEgMDExMDExMTEgMDExMDExMTAgMDAxMDAwMDAgMDExMTAxMTEgMDExMDEwMDEgMDExMDExMDAgMDExMDExMDAgMDAxMDAwMDAgMDExMDAwMTAgMDExMDAxMDEgMDAxMDAwMDAgMDExMDEwMDEgMDExMDExMTAgMDAxMDAwMDAgMDAxMTAwMTAgMDAxMDAwMDAgMDExMTAwMDAgMDExMDAwMDEgMDExMTAwMTAgMDExMTAxMDAgMDExMTAwMTEgMDAxMDExMTAgMDAxMDAwMDAgMDAxMTAwMDEgMDAxMDExMTAgMDAxMDAwMDAgMDEwMDAxMTAgMDExMDEwMDEgMDExMDExMTAgMDExMDAxMDAgMDAxMDAwMDAgMDExMTAxMDAgMDExMDEwMDAgMDExMDAxMDEgMDAxMDAwMDAgMDExMDAxMDAgMDExMDEwMDEgMDExMTAwMTEgMDExMDAwMTEgMDExMDExMTEgMDExMDAxMDAgMDAxMDAwMDAgMDExMDExMDAgMDExMDEwMDEgMDExMDExMTAgMDExMDEwMTEgMDAxMDAwMDAgMDExMDAwMDEgMDExMDExMTAgMDExMDAxMDAgMDAxMDAwMDAgMDExMDEwMTAgMDExMDExMTEgMDExMDEwMDEgMDExMDExMTAgMDAxMDExMTAgMDAxMDAwMDAgMDAxMTAwMTAgMDAxMDExMTAgMDAxMDAwMDAgMDEwMDAxMTAgMDExMDEwMDEgMDExMDExMTAgMDExMDAxMDAgMDAxMDAwMDAgMDExMTAxMDAgMDExMDEwMDAgMDExMDAxMDEgMDAxMDAwMDAgMDExMDAxMDAgMDExMDEwMDEgMDExMTAwMTEgMDExMDAwMTEgMDExMDExMTEgMDExMTAwMTAgMDExMDAxMDAgMDAxMDAwMDAgMDExMTAxMTAgMDExMDAxMDEgMDExMTAwMTAgMDExMDEwMDEgMDExMDAxMTAgMDExMTEwMDEgMDExMDAwMTEgMDExMDAwMDEgMDExMTAxMDAgMDExMDEwMDEgMDExMDExMTEgMDExMDExMTAgMDAxMDAwMDAgMDExMDAwMTEgMDExMDExMTEgMDExMDAxMDAgMDExMDAxMDEgMDAxMDExMTAgMDAwMDEwMTAgMDAwMDEwMTAgMDEwMDAxMTEgMDExMDExMTEgMDExMDExMTEgMDExMDAxMDAgMDAxMDAwMDAgMDExMDExMDAgMDExMTAxMDEgMDExMDAwMTEgMDExMDEwMTEgMDAxMDAwMDAgMDAxMTAwMDEgMDAxMTAwMDAgMDAxMTAwMDE=
+    
+    </p>  
+  </div>
+  </p>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+p {
+  display: inline;
+  font-size: 40px;
+  margin-top: 0px;
+}
+</style>
+
+
+<body onload="autoNotify()"> <!--Play the audio file on pageload  -->
+
+  <audio id="notifypop"> <!--Source the audio file. -->
+            <source src="https://cdn.glitch.com/806c4b29-17a4-4de5-a660-fd1052b17ca6%2FThe%20Purge%20Siren%20For%205%20Minutes.mp3?v=1589357759897" type="audio/mp3">
+  </audio>
+  
+ 
+  
+  <button id="f123" class="f123" onclick="f123">hello</button>
+<script src="/js123.js"> </script>
+<style> 
+.f123 {
+  display:none;
+}
+</style>
+</body>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-XXXXX-Y', 'auto');
+ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
+<!-- Google Analytics -->
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-XXXXX-Y', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+
+<script type="text/javascript">
+  jQuery({$.fn.extend({
+ trackChanges: function() {
+   $(":input",this).change(function() {
+      $(this.form).data("changed", true);
+   });
+ }
+ ,
+ isChanged: function() { 
+   return this.data("changed"); 
+ }
+});
+  $("#myform").trackChanges();
+}
+if ($("#myform").isChanged()) {
+   // ...
+}
+</script>
+
+</html>
+
+<!-- End Google Analytics -->
+
+
+<!-- Smartsupp Live Chat script -->
+<!--<script type="text/javascript">
+var _smartsupp = _smartsupp || {};
+_smartsupp.key = 'd8a9437da802c75b2945151b71b6ed4bb4166355';
+window.smartsupp||(function(d) {
+  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+  c.type='text/javascript';c.charset='utf-8';c.async=true;
+  c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+})(document);
